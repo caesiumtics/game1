@@ -22,6 +22,6 @@ with st.echo(code_location = 'below'):
     x = np.linspace(0, 1, 10)
     y = x
     
-    plt(x, y)
+    plt.scatter(x, y)
 
     st.plotly_chart(fig)
