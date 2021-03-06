@@ -13,7 +13,7 @@ from matplotlib import pyplot
 """
 
 with st.echo(code_location = 'below'):
-    total_points = st.slider("Show image?", 0, 1, 0.5)
+    total_points = st.slider("Show image?", 0, 100, 50)
     
     # load image as pixel array
     image = image.imread('AE.jpg')
