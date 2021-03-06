@@ -23,5 +23,3 @@ with st.echo(code_location = 'below'):
     y = x
     
     plt.scatter(x, y)
-
-    st.plotly_chart(fig)
