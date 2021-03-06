@@ -16,7 +16,7 @@ with st.echo(code_location = 'below'):
     total_points = st.slider("Show image?", 0, 1, 0)
     
     # load image as pixel array
-    image = image.imread('AE.jpeg')
+    image = image.imread('AE.jpg')
     # summarize shape of the pixel array
     print(image.dtype)
     print(image.shape)
